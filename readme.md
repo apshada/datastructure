@@ -114,3 +114,10 @@ var t = ages.find(checkAdult)
 console.log(t); //18
 
 ```
+### this operator
+Objects are usually created to represent entities of the real world, like users, orders and so on:
+
+### call,apply,bind
+“this” always refers to an object.
+“this” refers to an object which calls the function it contains.
+In the global context “this” refers to either window object or is undefined if the ‘strict mode’ is used.
